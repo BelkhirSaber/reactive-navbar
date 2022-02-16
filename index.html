@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reactive navbar</title>
+  <!-- boxicons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+  <!-- custom style -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <nav class="sidebar">
+
+    <div class="logo-content">
+      <div class="logo">
+        <i class='bx bx-code-alt'></i>
+        <div class="logo-name">coding</div>
+      </div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+
+    <ul class="nav">
+      <li class="nav-link">
+        <i class='bx bx-search-alt-2'></i>
+        <input type="search" placeholder="search">
+        <span class="tooltip">search</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-dashboard'></i>
+          <span class="text-link">dashboard</span>
+        </a>
+        <span class="tooltip">dashboard</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-user'></i>
+          <span class="text-link">user</span>
+        </a>
+        <span class="tooltip">user</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-pie-chart-alt-2'></i>
+          <span class="text-link">analytics</span>
+        </a>
+        <span class="tooltip">analytics</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-message'></i>
+          <span class="text-link">message</span>
+        </a>
+        <span class="tooltip">message</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-folder-minus'></i>
+          <span class="text-link">file manger</span>
+        </a>
+        <span class="tooltip">file manger</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-heart'></i>
+          <span class="text-link">favoret</span>
+        </a>
+        <span class="tooltip">favoret</span>
+      </li>
+
+      <li class="nav-link">
+        <a href="#">
+          <i class='bx bxs-widget'></i>
+          <span class="text-link">settings</span>
+        </a>
+        <span class="tooltip">settings</span>
+      </li>
+
+    </ul>
+
+    <div class="profile-content">
+      <div class="profile">
+        <div class="profile-details">
+          <img src="images/images.jpg" alt="">
+          <div class="name-job">
+            <div class="name">saber belkhir</div>
+            <d class="job">full stack developer
+          </div>
+        </div>
+      </div>
+      <i class='bx bxs-log-out' id="logout"></i>
+    </div>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="text">main content</div>
+  </main>
+
+
+
+
+  <script src="js/index.js"></script>
+</body>
+
+
+
+
+</html>
